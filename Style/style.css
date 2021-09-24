@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: "Red Hat Display", verdana, arial, sans-serif;
+}
+body {
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  
+  justify-content: center;
+  
+}
+
+.imgFondo {
+  position: fixed;
+  min-width: 100%;
+  z-index: -1;
+  background-size: cover;
+  
+}
+.Targeta {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 10%;
+  border-radius: 10px;
+  justify-content: center;
+}
+.imgHero {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.Targeta article {
+  margin: 10px;
+}
+
+.Texto {
+  /*border: 1px solid;
+  /*background-color: aqua;*/
+  text-align: center;
+  padding: 10px;
+}
+
+.titulo {
+  margin: 10px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.parraffo {
+  color: hsl(224, 23%, 55%);
+  font-weight: lighter;
+  text-shadow: 1px 1px 40px;
+}
+
+.seleccionPlan {
+  background-color: hsl(225, 100%, 98%);
+  display: grid;
+  grid-template-columns: 20% auto 30%;
+  text-justify: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+.periodo {
+  font-size: larger;
+  font-weight: 700;
+}
+.valor {
+  font-size: larger;
+  font-weight: lighter;
+  color: hsl(224, 23%, 55%);
+}
+.Plan p {
+  margin: 10px;
+}
+
+.seleccionPlan img {
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.change {
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.buttonSconteiner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.botonToPay {
+  background-color: hsl(245, 75%, 52%);
+  color: aliceblue;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0;
+  box-shadow: 0px 10px 10px hsl(224, 23%, 85%);
+}
+
+.botonToCancel {
+  background: none;
+  border: 0;
+  color: hsl(224, 23%, 55%);
+  /* cursor: default; */
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.attribution {
+  position: fixed;
+  bottom: 0px;
+}
